@@ -92,7 +92,7 @@ Export data
 
 🖼️ Dashboard Screenshots
 📌 Add screenshots here in the repo folder and embed them like:
-![Dashboard Overview](./assets/dashboard-overview.png)
+![Dashboard Overview](dashboard-overview.png)
 
 
 
