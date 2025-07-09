@@ -11,7 +11,7 @@
 | Frontend     | React.js + Vite + Chart.js  |
 | Backend      | Node.js + Express + TypeScript |
 | Blockchain   | @solana/web3.js             |
-| Database     | Prisma ORM + SQLite         |
+| Database     | Prisma ORM + Postgres         |
 | Charts       | chart.js (with Pie, Doughnut, Bar, Polar) |
 
 ---
