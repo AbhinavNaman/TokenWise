@@ -120,10 +120,10 @@ export default function Dashboard() {
                     <option value="polar">Polar Area</option>
                 </select>
             </div>
-                    <a href="http://localhost:4000/api/insights/export/json" target="_blank" rel="noopener noreferrer">
+                    <a href="https://tokenwise-vl6y.onrender.com/api/insights/export/json" target="_blank" rel="noopener noreferrer">
                         <button style={secondaryBtn}>Export JSON</button>
                     </a>
-                    <a href="http://localhost:4000/api/insights/export/csv" target="_blank" rel="noopener noreferrer">
+                    <a href="https://tokenwise-vl6y.onrender.com/api/insights/export/csv" target="_blank" rel="noopener noreferrer">
                         <button style={secondaryBtn}>Export CSV</button>
                     </a>
 
