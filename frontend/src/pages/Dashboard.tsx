@@ -98,19 +98,19 @@ export default function Dashboard() {
                 flexWrap: "wrap"
                 
             }}>
-                <div style={{ display: "flex", flexDirection: "", alignItems: "center", gap: "0.5rem", border: "1px solid #ccc", padding: "0.5rem", borderRadius: "5px", background: "#fff", }}>
-                    <div style={{ display: "flex", flexDirection: "", alignItems: "center", gap: "0.5rem" }}>
+                <div style={{ display: "flex", alignItems: "center", gap: "0.5rem", border: "1px solid #ccc", padding: "0.5rem", borderRadius: "5px", background: "#fff", }}>
+                    <div style={{ display: "flex", alignItems: "center", gap: "0.5rem" }}>
                         <label style={{ fontWeight: 500 }}>From:</label>
                         <input type="date" value={fromDate} onChange={e => setFromDate(e.target.value)} style={inputStyle} />
                     </div>
-                    <div style={{ display: "flex", flexDirection: "", alignItems: "center", gap: "0.5rem" }}>
+                    <div style={{ display: "flex", alignItems: "center", gap: "0.5rem" }}>
                         <label style={{ fontWeight: 500 }}>To:</label>
                         <input type="date" value={toDate} onChange={e => setToDate(e.target.value)} style={inputStyle} />
                     </div>
                     <button onClick={fetchSummary} style={primaryBtn}>Apply Filter</button>
                 </div>
             
-                <div style={{ display: "flex", flexDirection: "", alignItems: "center", gap: "0.5rem", border: "1px solid #ccc", padding: "0.5rem", borderRadius: "5px", paddingLeft: "1rem", paddingRight: "1rem", background: "#fff", }}>
+                <div style={{ display: "flex", alignItems: "center", gap: "0.5rem", border: "1px solid #ccc", padding: "0.5rem", borderRadius: "5px", paddingLeft: "1rem", paddingRight: "1rem", background: "#fff", }}>
                     <div >
                 <label style={{ marginRight: "0.5rem", fontWeight: 500 }}>View as:</label>
                 <select value={chartType} onChange={(e) => setChartType(e.target.value as any)} style={inputStyle}>
